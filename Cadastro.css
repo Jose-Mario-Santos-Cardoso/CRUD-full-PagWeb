@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: midnightblue;
+    margin: auto;
+    display: block;
+    font-size: 12px;
+    height: 120vh;
+    width: 360px;
+}
+
+.register{
+    background-color: skyblue;
+    width: 300px;
+    display: flexbox;
+    margin-top: 3%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(74, 15, 15, 0.7);
+}
+        
+.header{
+    background-color: mediumblue;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(74, 15, 15, 0.1);
+    width: 90%;
+}
+
+.menu{
+    background-color: royalblue;
+    text-align: center;
+    width: 101%;
+    margin-top: 3%;
+}
+
+.container{
+    background-color: mediumblue;
+    margin-top: 3%;
+    padding: 20px;
+    font-size: 10px;
+    width: 90%;
+}
+
+.greetings{
+    background-color: navy;
+    width: 96%;
+    color: mediumspringgreen;
+    justify-content: right;
+    margin-top: 4%;
+    padding-top: 2px;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+
+h1{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: left;
+    color: silver;
+    font-size: 11px;
+}
+
+.tops{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0px;
+}
+
+h3{
+    text-align: right;
+    font-size: medium;
+    font-style: italic;
+    color: white;
+    width: 100%;
+}
+
+input {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 2px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: blue;
+    color: mediumspringgreen;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+.end{
+    background-attachment: fixed;
+    background-color: mediumblue;
+    border: 3cm;
+    margin-top: 3px;
+    width: 103%;
+    display: inline-block;
+}
+
+.fim{
+    background-color: blue;
+    font-size: 14px;
+    padding: auto;
+    text-align: right;
+    color: aliceblue;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Treino.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinos</title>
+</head>
+
+<body>
+    <div class="logbox">
+    <header>
+    <div class="heading">
+        <h1>Prepare seu Protocolo de Treinamento.</h1>
+    </div>
+    </header>
+    <hr>
+
+    <nav>
+    <div class="navegation">
+        <b>
+            <a href="Home.html">Inicio</a> &nbsp;
+            <br>
+            <a href= "Login.html">Fazer Login Personal</a> &nbsp;
+            <br>
+            <a href= "Menu.html">Voltar ao Menu</a> &nbsp;
+            <br>
+        </b>
+    </div>
+    </nav>
+    </div>
+    <hr>
+
+    <main>
+        <hr>
+        <section class="exercising">
+        <div class="exercise">
+            <h2>Exercicio:</h2>
+                <input type="number" id="addID_Exercicio" placeholder="ID_Exercicio">
+                <input type="text" id="addNome_Exercicio" placeholder="Nome_Exercicio">
+                <input type="text" id="addGrupamento_Muscular" placeholder="Grupamento_Muscular">
+                <input type="number" id="addSeries" placeholder="Series">
+                <input type="number" id="addRepeticoes" placeholder="Repeticoes">
+                <input type="text" id="addTecnica" placeholder="Tecnica">
+                <input type="number" id="addDescanco_Segundos" placeholder="addDescanco_Segundos">
+                <button onclick="addExercicio()">Concluir Exercicio</button>
+        </div>
+        </section>
+        <hr>
+
+        <hr>
+        <section>
+            <div class="training">
+                <h3>Treino:</h3>
+                <input type="number" id="addID_Treino" placeholder="ID_Treino">
+                <input type="text" id="addLocal_Treino" placeholder="Local_Treino">
+                <input type="number" id="addTempo_Treino" placeholder="Tempo_Treino">
+                <input type="number" id="addTotal_Series" placeholder="Total_Series">
+                <button onclick="addTreino()">Concluir Treino</button>
+            </div>
+        </section>
+        <hr>
+
+    </main>
+    <script src="Treino.js"></script>
+
+</body>
+</html>

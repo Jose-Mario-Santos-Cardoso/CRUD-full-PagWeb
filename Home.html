@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Home.css">
+    <title>Home Personal</title>
+    <style>
+        body {
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidebar {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+        }
+        
+        .sidebar a {
+          padding: 8px 8px 8px 32px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidebar a:hover {
+          color: #f1f1f1;
+        }
+        
+        .sidebar .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+        }
+        
+        .openbtn {
+          font-size: 20px;
+          cursor: pointer;
+          background-color: #111;
+          color: white;
+          padding: 10px 15px;
+          border: none;
+        }
+        
+        .openbtn:hover {
+          background-color: #444;
+        }
+        
+        #main {
+          transition: margin-left .5s;
+          padding: 16px;
+        }
+        </style>
+</head>
+
+<body>
+    <header>
+        <h1>Impact Trainer o App para Profissionais da Educação Física</h1>
+    </header>
+    <hr>
+    <nav>
+        <b>
+            <a href="Inicio.html">Inicio</a> &nbsp;
+            <br>
+            <a href= "Login.html">Alterar Conta</a> &nbsp;
+            <br>
+            <a href="Home.html">Recarregar Página</a> &nbsp;
+            <br>
+            <a href= "Cadastro.html">Fazer Cadastro</a> &nbsp;
+        </b>
+    </nav>
+    <hr>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="Personal.html">Personal</a>
+        <a href="Menu.html">Menu</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Abrir Sidebar</button>  
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    <main>
+        <div class="options">
+            <h2>Impact Trainer<br>O App para Elevar o Nivel Técnico e Profissional<br>dos seus Protocolos de Treinamento!</h2>
+            <p>Oferecemos as ferramentas necessárias para que suas Periodizações e Protocolos de Treinamento sejam ás mais Profissionais e Didáticas do Mercado.   
+            </p>
+        </div>
+    </main>
+
+    <div class="greetings">
+        <h3><b>Impact Trainer<br>O App para Elevar o Nivel Técnico e Profissional<br>dos seus Protocolos de Treinamento!</b></h3>
+            <p>Oferecemos as ferramentas necessárias para que suas Periodizações e Protocolos de Treinamento sejam ás mais Profissionais e Didáticas do Mercado.<br>
+            Agora você também, Professor!<br>Tem uma Plataforma para Preparar e Organizar suas Planilhas de Treinamento.<br>
+            Com o apoio da utilização de ferramentas e interfaces, dê aos seus alunos e atletas o entendimento e a confiaça necessárias para valorizar o seu trabalho.</p>
+    </div>
+    <hr>
+    <div class="closing">
+    <footer>
+        <p>
+            <small><i>Copyright &copy; <blockquote> Impact Trainer</blockquote></i></small>
+        </p>
+    </footer>
+    </div>
+
+</body>
+</html>

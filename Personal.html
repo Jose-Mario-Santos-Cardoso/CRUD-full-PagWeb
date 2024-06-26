@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Personal.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <div class="logbox">
+        <hr>
+        <header>
+            <hr>
+            <div class="heading">
+            <h1>Meu Perfil</h1>
+            </div>
+        </header>
+        <div><hr></div>
+        <hr>
+        <nav>
+            <hr>
+            <div class="navegation">
+            <i><b>
+                <a href="Inicio.html">Inicio</a> &nbsp;
+                <a href= "Home.html">Home</a> &nbsp;
+                <a href= "Menu.html">Menu</a> &nbsp;
+                <a href= "Login.html">Login</a> &nbsp;
+            </b></i>
+            </div>
+        </nav>
+        <hr>
+        <hr>
+
+        <main>
+            <hr>
+            <div class="account">
+                <h2><b>Minhas Informações:</b></h2>
+                <button onclick="readPersonal()">Consultar</button>
+                <pre id="readResult"></pre>
+            </div>
+            <hr>
+
+            <section class="deleting">
+            <hr>
+                <div class="delete">
+                    <h2><b>Deletar Conta:</b></h2>
+                    <button onclick="deletePersonal()">Excluir</button>
+                </div>
+            </section>
+            <hr>
+
+            <section class="updating">
+            <hr>
+                <div class="update">
+                    <h2><b>Alterar Dados:</b></h2>
+                    <input type="text" id="addNome" placeholder="Nome">
+                    <input type="text" id="addEmail" placeholder="Email">
+                    <input type="number" id="addContato" placeholder="Contato">
+                    <input type="text" id="addSexo" placeholder="Sexo">
+                    <input type="text" id="addEstado" placeholder="Estado">
+                    <input type="text" id="addCidade" placeholder="Cidade">
+                    <input type="number" id="addIdade" placeholder="Idade">
+                    <input type="password" id="addSenha" placeholder="Senha">
+                    <button onclick="updatePersonal()">Atualizar Dados</button>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <hr>
+
+        <footer>
+        <hr>
+            <div class="closing">
+                <blockquote>
+                    <p><small><i>Copyright &copy; Impact Trainer</i></small></p>
+                </blockquote>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
